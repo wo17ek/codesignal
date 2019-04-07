@@ -13,8 +13,7 @@
 function deleteKElementFromBST(tree, k) {
     if(!tree) return tree;
     if(tree.value === k) {
-        if(tree.left) {
-            
+        if(tree.left) {           
         } else {
             return tree.right;
         }
